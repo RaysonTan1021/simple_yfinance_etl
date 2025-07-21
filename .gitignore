@@ -20,8 +20,8 @@ logs/
 nohup.out 
 
 # Data 
-csv_database/
 *.csv
+!csv_database/*.csv
 
 # Config
 exchange_config.json
