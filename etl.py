@@ -19,6 +19,7 @@ def get_data(ticker, csv_path):
         print("new data")
         pass
     df_new = df_new
+    ### Saves all data to csv including old and new, resulting in an accumulation effect 
     df_new.to_csv(csv_path)
 
 if __name__ == "__main__":
