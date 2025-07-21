@@ -1,0 +1,21 @@
+[project]
+name = "jeff-research"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Rayson Tan",email = "tankwanteng@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "yfinance (>=0.2.65,<0.3.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "pandas (>=2.3.1,<3.0.0)",
+    "numpy (>=2.3.1,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

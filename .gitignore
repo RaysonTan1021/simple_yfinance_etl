@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Env
+venv/
+.venv/
+
+# Env variable files 
+*.env
+
+# Logs & Outpus 
+system_logs/
+logs/
+*.log
+nohup.out 
+
+# Data 
+csv_database/
+*.csv
+
+# Config
+exchange_config.json
+
+# Shell scripts 
+*.sh 
