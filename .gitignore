@@ -21,7 +21,6 @@ nohup.out
 
 # Data 
 *.csv
-!csv_database/*.csv
 
 # Config
 exchange_config.json
